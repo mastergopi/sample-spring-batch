@@ -1,4 +1,4 @@
-package com.person.batch.contants;
+package com.person.batch.constants;
 
 public final class PersonBatchConstants {
 	

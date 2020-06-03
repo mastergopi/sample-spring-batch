@@ -23,7 +23,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.web.client.RestTemplate;
 
-import com.person.batch.contants.PersonBatchConstants;
+import com.person.batch.constants.PersonBatchConstants;
 import com.person.batch.dto.PersonDto;
 import com.person.batch.util.StringHeaderWriter;
 

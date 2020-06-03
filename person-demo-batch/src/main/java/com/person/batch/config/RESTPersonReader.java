@@ -15,7 +15,7 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import com.person.batch.contants.PersonBatchConstants;
+import com.person.batch.constants.PersonBatchConstants;
 import com.person.batch.dto.PersonDto;
 
 public class RESTPersonReader implements ItemReader<PersonDto> {
