@@ -88,7 +88,7 @@ public class RESTPersonJobConfig {
 	Step apiServiceToCSVFileStep(ItemReader<PersonDto> restPersonReader,
 			ItemProcessor<PersonDto, PersonDto> restPersonProcessor, ItemWriter<PersonDto> restPersonWriter,
 			StepBuilderFactory stepBuilderFactory) {
-		return stepBuilderFactory.get("apiServiceToCSVFileStep").<PersonDto, PersonDto>chunk(5).reader(restPersonReader)
+		return stepBuilderFactory.get("apiServiceToCSVFileStep").<PersonDto, PersonDto>chunk(1).reader(restPersonReader)
 				.processor(restPersonProcessor).writer(restPersonWriter).build();
 	}
 
